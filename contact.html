@@ -2,22 +2,30 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="La chouette agence est une société de webdesign basé à Lyon, qui aide les entreprises à devenir attractives et visible sur internet" />
+    <meta
+      name="keywords"
+      content="agence graphisme, agence motion design, agence de design, agence design, agence de graphisme, agence ux, 
+    agence webdesign, entreprie de graphisme, agence de branding, entreprise webdesign Lyon, design Lyon, entrprise web Lyon, communication digitale, 
+    agence communication digitale, stratégie de communication, entreprise web design lyon"
+    />
+    <meta
+      name="description"
+      content="La chouette agence est une société de webdesign basé à Lyon, qui aide les entreprises à devenir attractives et visible sur internet"
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
-    <script src="./js/jquery-3.5.1.min.js" defer></script>
-    <script src="./js/bootstrap.min.js" defer></script>
-    <script src="./js/blocs.min.js" defer></script>
+    <script src="./js/jquery-3.5.1.js" defer></script>
+    <script src="./js/bootstrap.js" defer></script>
+    <script src="./js/blocs.js" defer></script>
     <script src="./js/jqBootstrapValidation.js" defer></script>
     <script src="./js/formHandler.js" defer></script>
     <title>Contact</title>
@@ -58,9 +66,7 @@
                   <a href="index.html">Accueil</a>
                 </li>
                 <li></li>
-                <li>
-                  <a href="page2.html">page2 &gt;</a>
-                </li>
+                
               </ul>
             </div>
           </nav>
@@ -76,10 +82,10 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center hero-bloc-text tc-white">
+              <h1 class="text-center hero-bloc-text tc-black">
                 Parlons web design !
               </h1>
-              <p class="text-center mg-lg tc-white tight-width-whitespace">
+              <p class="text-center mg-lg tc-black tight-width-whitespace">
                 Nous sommes ravis que vous souhaitiez collaborer avec notre
                 agence.<br />
                 Parlez-nous de votre projet en complétant le formulaire
@@ -103,11 +109,11 @@
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label for="name"> Nom </label>
                   <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
@@ -116,16 +122,11 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
-                  <input
-                    class="form-control"
-                    type="email"
-                    required
-                    id="input_504"
-                  />
+                  <label for="ask"> Comment nous avez-vous connu ? </label>
+                  <input id="ask" class="form-control" type="text" required />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label for="message">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -172,29 +173,45 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-twitter icon-md"></span
+                    <a
+                      class="social"
+                      href="index.html"
+                      aria-label="logo twitter"
+                      ><p>Twitter</p>
+                      <span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-facebook icon-md"></span
+                    <a
+                      class="social"
+                      href="index.html"
+                      aria-label="logo facebook"
+                      ><p>Facebook</p>
+                      <span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-dribbble icon-md"></span
+                    <a
+                      class="social"
+                      href="index.html"
+                      aria-label="logo dribbler"
+                      ><p>Dribbler</p>
+                      <span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-instagram icon-md"></span
+                    <a
+                      class="social"
+                      href="index.html"
+                      aria-label="logo instagram"
+                      ><p>Instagram</p>
+                      <span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
                 </div>
