@@ -10,7 +10,10 @@
       agence communication digitale, stratégie de communication, entreprise web design lyon"
     />
     <!-- Modification des keywords-->
-    <meta name="description" content="La chouette agence est une société de webdesign basé à Lyon, qui aide les entreprises à devenir attractives et visible sur internet" />
+    <meta
+      name="description"
+      content="La chouette agence est une société de webdesign basé à Lyon, qui aide les entreprises à devenir attractives et visible sur internet"
+    />
     <!-- Ajout d'une descrition qui aide au référencement du site-->
     <meta
       name="viewport"
@@ -23,12 +26,15 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
+    <!-- bien faire attention a ce que les chemins de lien soient identique sur chaque page-->
 
     <script src="./js/jquery-3.5.1.js" defer></script>
     <script src="./js/bootstrap.js" defer></script>
     <script src="./js/blocs.js" defer></script>
     <script src="./js/jquery.touchSwipe.js" defer></script>
     <script src="./js/gmaps.js" defer></script>
+    <!-- faire charger le js en dernier permet une ouverture du site plus rapide d'ou l'ajout de l'attibut defer-->
+    <!-- toujours vérifier de disposer de la dernière version de framework (jquery) et de librairie (bootstrap)-->
 
     <title>La chouette agence</title>
     <!-- Ajout d'un Titre a la page -->
@@ -45,14 +51,13 @@
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-             
               <a class="navbar-brand" href="index.html"
                 ><img
                   src="img/la-chouette-agence.png"
                   alt="paris web design logo agence web meilleure agence"
                   height="40"
               /></a>
-              
+
               <button
                 id="nav-toggle"
                 type="button"
@@ -67,9 +72,7 @@
             </div>
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
               <ul class="site-navigation nav navbar-nav">
-                <li>
-                  
-                </li>
+                <li></li>
                 <li></li>
                 <li>
                   <a href="contact.html">Contact</a>
@@ -117,7 +120,10 @@
         <div class="container bloc-md">
           <div class="row">
             <div class="col-sm-12 text-center">
-              <h2>La chouette agence est une agence de web design qui aide<br>les entreprises à devenir attractives et visibles sur Internet.</h2>
+              <h2>
+                La chouette agence est une agence de web design qui aide<br />les
+                entreprises à devenir attractives et visibles sur Internet.
+              </h2>
             </div>
           </div>
           <div class="row voffset-lg med-width-whitespace">
@@ -127,11 +133,12 @@
                   class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"
                 ></span>
               </div>
-              <h2 class="mg-md text-center">Web design</h3>
+              <h2 class="mg-md text-center">Web design</h2>
+              <!--attention a bien respecter les balises fermante ici c'est du h2 et non du h3 bien penser a la vérification w3c-->
               <p class="text-center">
-                Que vous ayez un site web qui a besoin d'un
-                rafraîchissement ou que vous partiez de zéro, laissez-nous vous
-                réaliser un design dont vous serez fier.
+                Que vous ayez un site web qui a besoin d'un rafraîchissement ou
+                que vous partiez de zéro, laissez-nous vous réaliser un design
+                dont vous serez fier.
               </p>
             </div>
             <div class="col-sm-4">
@@ -140,7 +147,7 @@
                   class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"
                 ></span>
               </div>
-              <h2 class="mg-md text-center">Stratégie</h3>
+              <h2 class="mg-md text-center">Stratégie</h2>
               <p class="text-center">
                 Plutôt que de suggérer des designs à la mode, nous travaillerons
                 avec vous pour comprendre vos objectifs commerciaux afin de vous
@@ -153,7 +160,7 @@
                   class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"
                 ></span>
               </div>
-              <h2 class="mg-md text-center">Illustrations</h3>
+              <h2 class="mg-md text-center">Illustrations</h2>
               <p class="text-center">
                 Un bon design n'est rien sans de bonnes illustrations. Laissez
                 faire notre équipe de graphistes talentueux pour donner à vos
@@ -217,7 +224,10 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12 text-center">
-              <h2>Nous travaillons avec beaucoup de clients,<br>voici nos réalisations</h2>
+              <h2>
+                Nous travaillons avec beaucoup de clients,<br />voici nos
+                réalisations
+              </h2>
             </div>
           </div>
           <div class="row tight-width-whitespace portfolio-row">
@@ -230,9 +240,10 @@
                 data-frame="snapshot-lb"
                 ><img
                   src="img/1_OK.webp"
-                  alt="paris web design logo agence web meilleure agence et refonte site web journal"
+                  alt="pile de magasines ouvert"
                   class="img-responsive portfolio-thumb"
               /></a>
+              <!--attention a toujours bien remplir les balises alt pour une bonne descrition des photos et ne pas utiliser des mots clés car cela correspond a du black-hat-->
               <h3 class="mg-md text-center">
                 Refonte d'un site web pour un journal local
               </h3>
@@ -251,7 +262,7 @@
                 ><img
                   src="img/2_OK.webp"
                   class="img-responsive portfolio-thumb"
-                  alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes"
+                  alt="jeune femme de profil qui prend une photo"
               /></a>
               <h3 class="mg-md text-center">
                 Création d'un site web pour photographes
@@ -273,7 +284,7 @@
                 ><img
                   src="img/3_OK.webp"
                   class="img-responsive portfolio-thumb"
-                  alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"
+                  alt="matériels de photographie etalés sur une table"
               /></a>
               <h3 class="mg-md text-center">
                 Création d'un site internet pour un voyageur
@@ -293,7 +304,7 @@
                 ><img
                   src="img/4_OK.webp"
                   class="img-responsive portfolio-thumb"
-                  alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage"
+                  alt="personne qui travaille sur un ordinateur pour la creation d'un site de mariage"
               /></a>
               <h3 class="mg-md text-center">
                 Conception d'un site pour une agence de mariage
@@ -343,43 +354,53 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                    aria-label="logo twitter"
-                    ><p>Twitter</p>
+                    <a
+                      class="social"
+                      href="index.html"
+                      aria-label="logo twitter"
+                      ><p>Twitter</p>
+                      <!-- attention de toujours bien mettre les noms des liens de reseaux sociaux cela aide les lecteurs d'ecrans-->
                       <span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                    aria-label="logo facebook"
-                    ><p>Facebook</p>
+                    <a
+                      class="social"
+                      href="index.html"
+                      aria-label="logo facebook"
+                      ><p>Facebook</p>
+                      <!-- attention de toujours bien mettre les noms des liens de reseaux sociaux cela aide les lecteurs d'ecrans-->
                       <span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                    aria-label="logo dribbler"
+                    <a
+                      class="social"
+                      href="index.html"
+                      aria-label="logo dribbler"
                       ><p>Dribbler</p>
+                      <!-- attention de toujours bien mettre les noms des liens de reseaux sociaux cela aide les lecteurs d'ecrans-->
                       <span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                    aria-label="logo instagram"
+                    <a
+                      class="social"
+                      href="index.html"
+                      aria-label="logo instagram"
                       ><p>Instagram</p>
+                      <!-- attention de toujours bien mettre les noms des liens de reseaux sociaux cela aide les lecteurs d'ecrans-->
                       <span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
                 </div>
-                
               </div>
-              
             </div>
           </div>
         </div>
